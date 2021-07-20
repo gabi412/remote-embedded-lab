@@ -1,0 +1,198 @@
+#flexbox-schema-video-stimulus {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-title {
+    font: 18px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-weight: bold;
+    align-content: center;
+    margin-left: 4em;
+}
+
+#stm8-schema {
+    margin-left: 15em;
+    padding: 2em;
+    position: relative
+}
+
+.stm8schema-image {
+    width: 250px;
+    height: 340px;
+}
+
+.dropdown-class {
+    margin-bottom: 0.4em;
+    height: 22px;
+    position: relative;
+}
+
+.read-box {
+    height: 22px;
+    width: 2em;
+    margin-bottom: 0.4em;
+    text-align: center
+}
+
+.dropdown-write-class {
+    margin-bottom: 0.4em;
+    width: 2em;
+    height: 22px;
+}
+.dropdown-pd6-class{
+    margin-bottom: 2.1em;
+}
+.dropdown-pa2-class{
+    margin-bottom: 5.5em;
+}
+.dropdownpd6-write-class,.dropdownpd6-read-box-class {
+    margin-bottom: 2.1em;
+    height: 22px;
+    width: 2em;
+    text-align: center;
+
+}
+.dropdownpa2-write-class,.dropdownpa2-read-box-class {
+    margin-bottom: 5.5em;
+    height: 22px;
+    width: 2em;
+    text-align: center;
+}
+.stm8-label {
+    margin-left: 1.5em;
+    height: 19px;
+}
+
+.right-configuration-list {
+    list-style-type: none;
+    position: absolute;
+    top: 28%;
+    right: -26%;
+}
+
+.right-write-value-list {
+    list-style-type: none;
+    position: absolute;
+    top: 28%;
+    right: -42%;
+}
+
+.right-read-value-list {
+    list-style-type: none;
+    position: absolute;
+    top: 28%;
+    right: -58%;
+}
+
+.left-configuration-list {
+    list-style-type: none;
+    position: absolute;
+    top: 29%;
+    right: 93%;
+}
+
+.left-write-value-list {
+    list-style-type: none;
+    position: absolute;
+    top: 29%;
+    right: 133%;
+}
+
+.left-read-value-list {
+    list-style-type: none;
+    position: absolute;
+    top: 29%;
+    right: 150%;
+}
+
+/* style labels for read write and config options */
+
+.right-text-read {
+    position: absolute;
+    top: 18%;
+    right: -60%;
+}
+
+.right-text-write {
+    position: absolute;
+    top: 18%;
+    right: -42%;
+}
+
+.right-text-config {
+    position: absolute;
+    top: 18%;
+    right: -15%;
+}
+
+.left-text-read {
+    position: absolute;
+    top: 18%;
+    right: 148%;
+}
+
+.left-text-write {
+    position: absolute;
+    top: 18%;
+    right: 132%;
+}
+
+.left-text-config {
+    position: absolute;
+    top: 18%;
+    right: 105%;
+}
+
+/* style buttons from control pins */
+
+#button-config {
+    position: absolute;
+    top: 100%;
+    right: 113%;
+}
+
+#button-read {
+    position: absolute;
+    top: 100%;
+    right: 60%;
+}
+
+.button-controlpins {
+    background-color: rgb(138, 15, 15);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.button-controlpins:hover {
+    background-color: rgb(105, 10, 10);
+}
+.checkbox-div{
+    float: left;
+}
+.checkbox-square{
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5em;
+}
+.checkbox-label{
+    font: 20px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-weight: bold;
+    vertical-align: top;
+}
+.checkbox-pins{
+    list-style-type: none;
+}
+.label-description{
+    font: 18px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-weight: bold;
+    align-content: center;
+}
+.checkbox-pins{
+    display: table;
+    margin: 0 auto;
+}
